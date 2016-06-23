@@ -5,6 +5,8 @@
 A Stems file is a music format that contains four ‘stems’: Drums, Bassline, Melody, and Vocal stems.
 This format allows DJs to control each track independently.
 
+__Important:__ The resulting mp4 file can only be played in Google Chrome, unfortunately.
+
 
 ## createUnstemizer(buffer)
 
