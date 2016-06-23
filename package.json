@@ -1,0 +1,17 @@
+{
+  "name": "unstemizer",
+  "version": "1.0.0",
+  "description": "`unstemizer` allows you to access each part of a [Stems](http://www.stems-music.com/) file. A Stems file is a music format that contains four ‘stems’: Drums, Bassline, Melody, and Vocal stems. This format allows DJs to control each track independently.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "babel src -d lib"
+  },
+  "author": "Thai Pangsakulyanont <org.yi.dttvb@gmail.com> (http://dt.in.th/)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "umd": "^3.0.1"
+  }
+}
